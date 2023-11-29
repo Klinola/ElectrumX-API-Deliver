@@ -27,7 +27,7 @@ function logRequest(req) {
     fs.readFile(userLogFile, 'utf8', (err, data) => {
         let requestCount = 0;
         if (!err) {
-            numIndex = data.indexOf("Total Requests: ")+ "Total Requests: ".length
+            numIndex = data.lastIndexOf("Total Requests: ")+ "Total Requests: ".length
             requestCount = parseInt(data.substring(numIndex), 10) || 0;
         }
 
