@@ -1,0 +1,27 @@
+{
+  "name": "electrumx-api-deliver",
+  "version": "1.0.0",
+  "description": "A JS scirpt to manage the ElectrumX server API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klinola/ElectrumX-API-Deliver.git"
+  },
+  "keywords": [
+    "ElectrumX",
+    "API"
+  ],
+  "author": "Klinola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Klinola/ElectrumX-API-Deliver/issues"
+  },
+  "homepage": "https://github.com/Klinola/ElectrumX-API-Deliver#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "express": "^4.18.2"
+  }
+}
